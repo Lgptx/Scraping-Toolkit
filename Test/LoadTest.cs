@@ -39,7 +39,7 @@ namespace Test
             var itens = ret.HtmlPage.GetByClassNameEquals("edge-item-fix");
             var itens2 = ret.HtmlPage.GetByClassNameContains("edge-it");
 
-            Assert.IsTrue(itens.Count > 0 && itens2.Count>0);
+            Assert.IsTrue(itens.Count > 0 && itens2.Count > 0);
         }
 
         [TestMethod]
